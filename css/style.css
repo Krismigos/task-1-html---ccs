@@ -1,0 +1,82 @@
+.bg-img {
+  height: 100vh;
+  background-image: url(../img/backgraund.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.menu {
+  background-color: rgba(0, 0, 0, 0.15);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.container-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 80px;
+}
+.logo {
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+  color: floralwhite;
+}
+
+.menu-list {
+  display: flex;
+  gap: 0 60px;
+
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.menu-list-item {
+  list-style: none;
+}
+
+.menu-list-link {
+  text-decoration: none;
+  color: floralwhite;
+}
+
+.content {
+  position: fixed;
+  width: 511px;
+  margin-top: 209px;
+  padding: 30px 30px 30px 175px;
+}
+
+.content-title {
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 104px;
+  color: #ffffff;
+}
+
+.content-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  padding: 32px 0 27px 0;
+}
+
+.content-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  text-decoration: none;
+
+  width: 221px;
+  height: 50px;
+
+  background: #2c4f8d;
+  border-radius: 7px;
+}
